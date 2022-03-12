@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(cu.gif);
+    background-size: 100% 100%;
+    background-size: cover;
+    user-select: none;
+}   
+.box{
+    width: 450px;
+    background-color: );
+    opacity: 1;
+    background-size: 1000% 100%;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+.box img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box p{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font: x-large;
+}
+.box h2{
+    margin: 1px;
+    font-size: 28px;
+    font-weight: 40px;
+    letter-spacing: 2px;
+}
+.box p{
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+.box li a{
+    color: #ffffff;
+   
+    font-size: 48px;
+    border-radius: 3px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: #ff0000;
+    font-weight: bold;
+    
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-size: 40px;
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 90px;
+    font-family: sans-serif;
+    color:rgb(36, 189, 87);
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 8px;
+    line-height: 95px;
+}
+.navbar ul li a{
+    color:rgb(241, 241, 241);
+    text-decoration: none;
+    font-size: 35px;
+    padding: 10px 13px;
+    font-family: roboto;
+    transition: 0.7s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgba(87, 22, 22, 0.836);
+    border-radius: 2px;
+}
+.container .center{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+}
+.center .buttons{
+    margin: 95px 420px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 205px;
+    font-weight: bold;
+    color: rgb(32, 3, 32);
+    background: rgb(245, 197, 197);
+    border: solid 1px rgb(75, 116, 230);
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.buttons button:hover{
+    background: rgb(197, 63, 63);
+}
+.box ul li{
+    border: 2px solid rgba(6, 75, 52, 0);
+    padding: 10px;
+    text-align: center;
+    margin-top: -10%;
+}
+#preloader{
+    background: #000000 url(preloader.gif) no-repeat center center;
+    background-size: 10%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0%;
+}
+#pp{
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    background: url(cuu.gif);
+    opacity: 1;
+    background-size: 1000% 100%;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: -2%;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    border-radius: 25px;
+}
